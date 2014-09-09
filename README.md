@@ -29,14 +29,14 @@ The puts (short for "put string") and print commands are both used to display th
 Everything in Ruby has a return value. For instance:
 
 
- Code                  | Return Value   |
-------------------------------------------
- `"Hello world"`       | `"Hello world"`|
- `6 + 3`               | `9`            |
- `president = "Obama"` | `Obama`        |
- `total = 6 + 3`       | `9`            |
- `puts "hello world"`  | `nil`          |
- `print "hello world`  | `nil`          |
+|Code                   | Return Value   |
+|-----------------------|----------------|
+| `"Hello world"`       | `"Hello world"`|
+| `6 + 3`               | `9`            |
+| `president = "Obama"` | `Obama`        |
+| `total = 6 + 3`       | `9`            |
+| `puts "hello world"`  | `nil`          |
+|`print "hello world`   | `nil`          |
 
 ### PUTS
 Let's say I wanted to really quickly in IRB get my name printed to the screen. I would enter `puts "Victoria"`. 
