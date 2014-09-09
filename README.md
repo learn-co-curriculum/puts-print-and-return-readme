@@ -79,4 +79,4 @@ def print_and_return_name
   puts "Guy Fieri"
 end
 ```
-the method would instead print "Guy Fieri" and return `nil`. This is becuase the last line that was evaluated was `puts ...` and the return value of a `puts`, as seen in the [table above](link here) is always `nil`. 
+the method would instead print "Guy Fieri" and return `nil`. This is becuase the last line that was evaluated was `puts ...` and the return value of a `puts`, as seen in the [table above](#returning-values) is always `nil`. 
