@@ -74,7 +74,7 @@ end
 ```
 If you accidentally switched the order of the lines inside the method:
 ```ruby
-def print_and_return_name
+def broken_print_and_return_name
   "Guy Fieri"
   puts "Guy Fieri"
 end
