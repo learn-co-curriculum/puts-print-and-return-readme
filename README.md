@@ -24,10 +24,11 @@ The puts (short for "put string") and print commands are both used to display th
 # => Hello!
 ```
 
+By default, Ruby doesn't display any output. The methods `puts` and `print` are a great ways to explicity tell the program to display specific information. Without these printing methods, Ruby will read the line, but not print anything out.
+
 ## Returning Values
 
 Everything in Ruby has a return value. For instance:
-
 
 |Code                   | Return Value   |
 |-----------------------|----------------|
@@ -38,30 +39,44 @@ Everything in Ruby has a return value. For instance:
 | `puts "hello world"`  | `nil`          |
 |`print "hello world`   | `nil`          |
 
-### PUTS
-Let's say I wanted to really quickly in IRB get my name printed to the screen. I would enter `puts "Victoria"`. 
+You may notice that the `puts` and `print` methods simply print values on the screen, but instead of returning the value of the content they print, they return `nil`.
 
-So we learned earlier that `puts` is just a ruby method that is designed to output words on the screen. It's really useful for debugging especially if you're confused about what value a variable is at a given point in time. 
+Every method in Ruby returns a value by default, even custom ones. This returned value will be the value of the last statement. For example, let's look at this method called `restaurant`:
+```ruby
+def restaurant
+  restaurant_name = "Guy's American Kitchen & Bar"
+  cuisine = "american"
+  motto = "Welcome to Flavor Town!"
+end
+```
+The return value of the `restaurant` method is "Welcome to Flavor Town!" because that was the last statement evaluated.
 
-But in IRB, directly below my name printed, I see ` => nil`. What the heck is that? The `puts` method simply prints the string on the screen, it doesn't return the value of my string. It returns nil. It means that you wouldn't want to `puts "Victoria"` as the return value of a custom method. The end value you would get would be nil! That end value would replace all the hard work you did to get a certain value. It's like erasing everything.
+Say you're the best chef in the world, Guy Fieri. To make a method that just prints your name and returns `nil`, you could write:
+```ruby
+def print_name
+  puts "Guy Fieri"
+end
+```
 
-###Let's run this from a ruby file!
-`.rb` is a file extension that let's us know we're about to open a ruby file. The computer doesn't need the file extension to know what kind of file we're talking about. It's more for human use, so we don't get confused about it.
+To write a method that returns your name but doesn't print anything, you could write
+```ruby
+def return_name
+  "Guy Fieri"
+end
+```
 
-
-To run a ruby file, we need to make sure we exit out of IRB by typing `exit`. We want to see the ♥ that indicates the terminal prompt. We also want to make sure we're in the correct directory. Remember `pwd` will tell you your current location. You want to make sure you're in the `say-my-name` directory. 
-
-The computer has to know exactly what file to run and where it is. To run a ruby file, in terminal you type `ruby file_name.rb`. You won't actually type "file_name.rb" but replace that with the name of the file you're trying to run, which in this case is `my_name.rb`
-
-In terminal, you'll enter `ruby my_name.rb`. This basically tells the computer, activate the ruby interpreter and execute this file. If you're not in the correct directory when you run this command, you'll see this error `ruby: No such file or directory -- my_name.rb (LoadError)`
-
-
-###RSPEC Again:
-Go ahead and open the file named `my_name_spec.rb` located in the spec directory. 
-
-Line 3 of this file indicates that we're describing the code in the file `my_name.rb`. Notice our spec file is `my_name_spec.rb`. The naming conventions is part of how rspec knows what tests to match with what code.
-
-Lines 6-10 describe the first exercise. Line 6 tells us that our code that we will write in `my_name.rb` a method called `my_name`. Line 12 tells us that part two of this lab will need a method called `my_name_with_puts`. The tests will fail if you don't have methods named `my_name` and `my_name_with_puts`. To run the tests, just type `rspec` into terminal. You will need to be in the `say_my_name` directory for this command to work. If you've written your methods correctly, all the tests will pass!
-
-###Returning v. Puts-ing
-So how come when `my_name.rb` only has "victoria", and I run this part of the file I don't see my name printed? Input and output operations in ruby are really important. Input is any data that is read by the program. In the case of what we just played with, returning your name, that is our input. By default, ruby doesn't display any output. There are a lot of behind-the-scenes things that programs do, and we don't want our users to see all of those things. `puts` is a great way to explicity tell the program to display that specific information. Without `puts`, Ruby will read the line, but not print anything out.
+To both print and return your name, you could write:
+```ruby
+def print_and_return_name
+  puts "Guy Fieri"
+  "Guy Fieri"
+end
+```
+If you accidentally switched the order of the lines inside the method:
+```ruby
+def print_and_return_name
+  "Guy Fieri"
+  puts "Guy Fieri"
+end
+```
+the method would instead print "Guy Fieri" and return `nil`. This is becuase the last line that was evaluated was `puts ...` and the return value of a `puts`, as seen in the [table above](link here) is always `nil`. 
