@@ -39,7 +39,7 @@ Everything in Ruby has a return value. For instance:
 | `puts "hello world"`  | `nil`          |
 |`print "hello world`   | `nil`          |
 
-You may notice that the `puts` and `print` methods simply print values on the screen, but instead of returning the value of the content they print, they return `nil`.
+You may notice that the `puts` and `print` methods, when run in IRB, print values on the screen and then display a line like this: `=> nil`. This is because puts and print may print the value you want, but instead of returning that value, they return `nil`.
 
 Every method in Ruby returns a value by default, even custom ones. This returned value will be the value of the last statement. For example, let's look at this method called `restaurant`:
 ```ruby
