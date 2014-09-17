@@ -1,5 +1,5 @@
 ---
-tags: readme, WIP
+tags: readme
 language: ruby
 resources: 0
 track: web development
