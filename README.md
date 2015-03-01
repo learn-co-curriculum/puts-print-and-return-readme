@@ -12,7 +12,7 @@ lesson: print, puts, and return
 
 ## Puts and Print
 
-The puts (short for "put string") and print commands are both used to display the results of evaluating Ruby code. The primary difference between them is that `puts` adds a newline after executing, and `print` does not.
+The puts (short for "output string") and print commands are both used to display the results of evaluating Ruby code. The primary difference between them is that `puts` adds a newline after executing, and `print` does not.
 
 ```ruby
 3.times { print "Hello!" }
