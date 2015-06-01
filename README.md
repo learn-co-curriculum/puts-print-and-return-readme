@@ -1,12 +1,7 @@
----
-tags: readme
-language: ruby
-resources: 0
-track: web development
-topic: ruby
-unit: hello world
-lesson: print, puts, and return
----
+##Objectives
+
+1. Understand the puts and print methods
+2. Understand how return values work in Ruby
 
 # Print, Puts, and Return
 
