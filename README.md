@@ -19,7 +19,7 @@ The puts (short for "output string") and print commands are both used to display
 # Hello!
 ```
 
-By default, Ruby doesn't display any output. The methods `puts` and `print` are a great ways to explicity tell the program to display specific information. Without these printing methods, Ruby will read the line, but not print anything out.
+By default, Ruby doesn't display any output. The methods `puts` and `print` are a great way to explicity tell the program to display specific information. Without these printing methods, Ruby will read the line, but not print anything out.
 
 ###Bonus: How Puts and Print put and print
 
@@ -46,7 +46,7 @@ Everything in Ruby has a return value!
 | `president = "Obama"` | `Obama`        |
 | `total = 6 + 3`       | `9`            |
 | `puts "hello world"`  | `nil`          |
-|`print "hello world`   | `nil`          |
+|`print "hello world"`   | `nil`          |
 
 
 You may notice that the `puts` and `print` methods, when run in IRB, print values on the screen and then display a line like this: `=> nil`. This is because puts and print may print the value you want, but instead of *returning* that value, they return `nil`.
@@ -124,7 +124,7 @@ You may have expected the return value to be "Guy Fieri". His name is the last l
 
 The return keyword will disrupt the execution of your method. If you employ it, your method will return whatever you have explicitly told it to (in this case, "Martha Stewart"), and terminate. 
 
-The explicit use of the `return` keyword is generally avoided many Rubyists. 
+The explicit use of the `return` keyword is generally avoided by many Rubyists. 
 
 ###Practicing Return Values
 
