@@ -110,9 +110,9 @@ Let's take a look:
 
 ```ruby 
 def stylish_chef
-	best_hairstyle = "Guy Fieri"
-	return "Martha Stewart"
-	"Guy Fieri"	
+  best_hairstyle = "Guy Fieri"
+  return "Martha Stewart"
+  "Guy Fieri" 
 end
 ```
 
@@ -128,15 +128,32 @@ The return keyword will disrupt the execution of your method. If you employ it, 
 
 The explicit use of the `return` keyword is generally avoided by many Rubyists. 
 
-### Practicing Return Values
+### Code Along Exercise: Practicing Return Values
 
-Let's try it out once more together. In your terminal, drop into IRB. Run the following line: `6 + 3`
+Let's try it out once more together. In your terminal, drop into IRB. Then, follow the steps below: 
 
-You should see a return value of `=> 9`
+1. In IRB, type: `6 + 3`
+  * You should see a return value of `=> 9`
+  
+2. Now, set a variable `total` equal to `6 + 3`. 
+  * You've just *stored* the return value of adding `6` and `3` and you can now grab that return value `9` by referencing the `total` variable. 
+3. Set another variable, `new_total` equal to `total + 10`. 
+  * You should see a return value of `18`.
+4. Copy and past the below method definition in IRB, then invoke the method with an argument of "Johnny".
 
-Now, set a variable `total` equal to `6 + 3`. 
+```ruby
+def the_shining(name)
+  puts "Here's #{name}"
+end
+```
+You should see the following output: 
 
-You've just *stored* the return value of adding `6` and `3` and you can now grab that return value `9` by referencing the `total` variable. 
+```bash
+Here's Johnny!
+=> nil
+``` 
+
+First, the method output the phrase to the terminal, then the terminal displayed the return value for us, which is `nil` (the return value of the `puts` method!)
 
 ### Why Return Values Matter
 
