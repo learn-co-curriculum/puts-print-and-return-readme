@@ -138,7 +138,7 @@ Let's try it out once more together. In your terminal, drop into IRB. Then, foll
 2. Now, set a variable `total` equal to `6 + 3`. 
   * You've just *stored* the return value of adding `6` and `3` and you can now grab that return value `9` by referencing the `total` variable. 
 3. Set another variable, `new_total` equal to `total + 10`. 
-  * You should see a return value of `18`.
+  * You should see a return value of `19`.
 4. Copy and past the below method definition in IRB, then invoke the method with an argument of "Johnny".
 
 ```ruby
