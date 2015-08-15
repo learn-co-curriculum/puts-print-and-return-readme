@@ -45,7 +45,7 @@ Everything in Ruby has a return value!
 |-----------------------|----------------|
 | `"Hello world"`       | `"Hello world"`|
 | `6 + 3`               | `9`            |
-| `president = "Obama"` | `Obama`        |
+| `president = "Obama"` | `"Obama"`        |
 | `total = 6 + 3`       | `9`            |
 | `puts "hello world"`  | `nil`          |
 | `print "hello world"` | `nil`          |
