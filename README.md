@@ -143,7 +143,7 @@ Let's try it out once more together. In your terminal, drop into IRB. Then, foll
 
 ```ruby
 def the_shining(name)
-  puts "Here's #{name}"
+  puts "Here's #{name}!"
 end
 ```
 You should see the following output: 
