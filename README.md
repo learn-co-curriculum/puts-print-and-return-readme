@@ -148,7 +148,7 @@ end
 ```
 You should see the following output: 
 
-```bash
+```
 Here's Johnny!
 => nil
 ``` 
