@@ -1,10 +1,15 @@
 # Print, Puts, and Return
 
+## Overview
+
+We'll cover how the `puts` and `print`commands display Ruby code to the console, and then explain the concept of return values in Ruby. 
+
 ## Objectives
 
-1. Distinguish `puts` from `print`, and use both.
+1. Define and distinguish `puts` from `print`.
 2. Identify implicit return values in Ruby syntax.
-3. Use the explicit `return` keyword.
+3. Distinguish between the display outputs of `puts` and `print`from their return values.
+4. Use the explicit `return` keyword.
 
 
 ## `puts` and `print`
