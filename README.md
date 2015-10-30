@@ -18,12 +18,12 @@ The `puts` (short for "out**put s**tring") and `print` commands are both used to
 
 ```ruby
 3.times { print "Hello!" }
-# Hello!Hello!Hello!
+# > Hello!Hello!Hello!
 
 3.times { puts "Hello!" }
-# Hello!
-# Hello!
-# Hello!
+# > Hello!
+# > Hello!
+# > Hello!
 ```
 
 By default, Ruby doesn't display any output. The methods `puts` and `print` are a great way to explicitly tell the program to display specific information. Without these printing methods, Ruby will read the line, but not print anything out.
