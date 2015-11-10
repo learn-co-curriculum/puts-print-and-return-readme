@@ -60,7 +60,7 @@ You may notice that the `puts` and `print` methods, when run in IRB, print value
 
 ### Return Values of Methods
 
-Methods are like vending machines. When you use a vending machine you just put in two arguments, the number (C7) and your money. We already know how to use arguments, but then your vending machine might do two thing. One, it will make a noise saying that everything worked, beep beep. Then it gives you the soda. The soda is the return type. But those beeps? Are you able to do anything with them? Nope! That's like puts: it just tells you stuff and then goes into the ether! Gone forever.
+Methods are like vending machines. When you use a vending machine you just put in two arguments, the number (C7) and your money. We already know how to use arguments, but then your vending machine might do two things. One, it will make a noise saying that everything worked, beep beep. Then it gives you the soda. The soda is the return type. But those beeps? Are you able to do anything with them? Nope! That's like puts: it just tells you stuff and then goes into the ether! Gone forever.
 
 Every method in Ruby returns a value by default, even custom ones. This returned value will be the value of the last statement.
 
