@@ -165,7 +165,7 @@ Here's Johnny!
 => nil
 ```
 
-First, the method output the phrase to the terminal, then the terminal displayed the return value for us, which is `nil` (the return value of the `puts` method!). The **return value** of the first command was the method name, and for the second command it was `nil`. IRB depicts return value like so:
+First, the method output the phrase to the terminal, then the terminal displayed the return value for us, which is `nil` (the return value of the `puts` method!). The **return value** of the first command was the method name, and for the second command it was `nil`. IRB depicts return values like so:
 ```ruby
 =>
 ```
