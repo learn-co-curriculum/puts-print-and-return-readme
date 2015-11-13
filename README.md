@@ -146,21 +146,29 @@ Let's try it out once more together. In your terminal, drop into IRB. Then, foll
   * You've just *stored* the return value of adding `6` and `3` and you can now grab that return value `9` by referencing the `total` variable.
 3. Set another variable, `new_total` equal to `total + 10`.
   * You should see a return value of `19`.
-4. Copy and paste the below method definition in IRB, then invoke the method with an argument of `"Johnny"`.
-
+4. Copy and paste the below method definition in IRB
 ```ruby
 def the_shining(name)
   puts "Here's #{name}!"
 end
 ```
-You should see the following output:
+5 . Press return, and IRB will helpfully echo back the return value, which in this case is the method name:
 
+```ruby
+ => :the_shining 
 ```
+
+6 . Next invoke the method with an argument of `"Johnny"`. We can invoke a method by typing the method name and passing in the necessary argument in paranthesis as well. You should see the following output:
+
+```ruby
 Here's Johnny!
 => nil
 ```
 
-First, the method output the phrase to the terminal, then the terminal displayed the return value for us, which is `nil` (the return value of the `puts` method!)
+First, the method output the phrase to the terminal, then the terminal displayed the return value for us, which is `nil` (the return value of the `puts` method!). The **return value** of the first command was the method name, and for the second command it was `nil`. IRB depicts return value like so:
+```ruby
+=>
+```
 
 ### Why Return Values Matter
 
