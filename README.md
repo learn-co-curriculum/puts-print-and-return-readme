@@ -179,3 +179,5 @@ Let's look at a very basic example. Earlier, in IRB, we set a variable `total` e
 On the next line, execute `total + 17`. You should see a return value of `=> 26`. Thus, the return value of one operation (`6 + 3`) was used to execute further operations (the addition of `17`).
 
 As we've just done, you'll find that we will often store return values in variables so that we can use them later.
+
+<a href='https://learn.co/lessons/puts-print-and-return-readme' data-visibility='hidden'>View this lesson on Learn.co</a>
