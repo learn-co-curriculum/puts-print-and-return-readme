@@ -18,12 +18,12 @@ The `puts` (short for "out**put s**tring") and `print` commands are both used to
 
 ```ruby
 3.times { print "Hello!" }
-# Hello!Hello!Hello!
+# > Hello!Hello!Hello!
 
 3.times { puts "Hello!" }
-# Hello!
-# Hello!
-# Hello!
+# > Hello!
+# > Hello!
+# > Hello!
 ```
 
 By default, Ruby doesn't display any output. The methods `puts` and `print` are a great way to explicitly tell the program to display specific information. Without these printing methods, Ruby will read the line, but not print anything out.
@@ -38,7 +38,7 @@ You can absolutely employ `puts` and `print` without understanding everything th
 
 ## Returning Values
 
-What methods like `puts` and `print` allow us to output to the console are different from Ruby's concept of a *return value*.
+What methods like `puts` and `print` allows us to output to the console are different from Ruby's concept of a *return value*.
 
 A return value is the data returned to the program by the execution of a method, the assignment of a variable, actually...
 
@@ -60,7 +60,7 @@ You may notice that the `puts` and `print` methods, when run in IRB, print value
 
 ### Return Values of Methods
 
-Methods are like vending machines. When you use a vending machine you just put in two arguments, the number (C7) and your money. We already know how to use arguments, but then your vending machine might do two things, one, it will make a noise saying that everything worked, beep beep. Then it actually does something...it gives you the soda. The soda is the return type, you then call the drink method on that soda and enjoy it. But those beeps? Are you able to do anything with them? Nope! That's like puts, it just tells you stuff and then goes into the ether! Gone forever.
+Methods are like vending machines. When you use a vending machine you just put in two arguments, the number (C7) and your money. We already know how to use arguments, but then your vending machine might do two things. One, it will make a noise saying that everything worked, beep beep. Then it gives you the soda. The soda is the return type. But those beeps? Are you able to do anything with them? Nope! That's like puts: it just tells you stuff and then goes into the ether! Gone forever.
 
 Every method in Ruby returns a value by default, even custom ones. This returned value will be the value of the last statement.
 
@@ -184,8 +184,6 @@ one_plus_one #this invokes the method
 
 In the second method, the method simply returns the value of `1+1`, which is `2`.
 
-
-
 ### Why Return Values Matter
 
 Return values are how different parts of your program communicate with one another. You don't have to worry too much about this for now, but as you start to build more complicated programs, you'll find that the return value of one method might be operated on by a subsequent method.
@@ -195,3 +193,5 @@ Let's look at a very basic example. Earlier, in IRB, we set a variable `total` e
 On the next line, execute `total + 17`. You should see a return value of `=> 26`. Thus, the return value of one operation (`6 + 3`) was used to execute further operations (the addition of `17`).
 
 As we've just done, you'll find that we will often store return values in variables so that we can use them later.
+
+<a href='https://learn.co/lessons/puts-print-and-return-readme' data-visibility='hidden'>View this lesson on Learn.co</a>
