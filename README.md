@@ -123,7 +123,7 @@ def stylish_chef
 end
 ```
 
-What do you expect the return value of the above method to be? Go into IRB, copy and past the above method and call it. Go on, I'll wait.
+What do you expect the return value of the above method to be? Go into IRB, copy and paste the above method and call it. Go on, I'll wait.
 
 ...
 
