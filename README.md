@@ -131,7 +131,7 @@ You may have expected the return value to be "Guy Fieri". His name is the last l
 
 *However*, the return value of the above method is actually `=> Martha Stewart`!
 
-The return keyword will disrupt the execution of your method. If you employ it, your method will return whatever you have explicitly told it to (in this case, `"Martha Stewart"`), and terminate.
+The `return` keyword will disrupt the execution of your method. If you employ it, your method will return whatever you have explicitly told it to (in this case, `"Martha Stewart"`), and terminate.
 
 The explicit use of the `return` keyword is generally avoided by many Rubyists.
 
