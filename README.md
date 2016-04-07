@@ -107,7 +107,7 @@ def broken_print_and_return_name
   puts "Guy Fieri"
 end
 ```
-The method would instead print "Guy Fieri" and return `nil`. This is because the last line that was evaluated was `puts ...` and the return value of a `puts`, as seen in the [table above](#returning-values) is always `nil`.
+The method would instead print "Guy Fieri" and return `nil`. This is because the last line that was evaluated was `puts ...` and the return value of a `puts`, as seen in the table above is always `nil`.
 
 #### The Return Keyword
 
