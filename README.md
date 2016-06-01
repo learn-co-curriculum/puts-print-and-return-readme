@@ -137,7 +137,7 @@ The explicit use of the `return` keyword is generally avoided by many Rubyists, 
 
 ```ruby
 def change_my_name
-  name = "Teddy"
+  name = "Frank"
   puts name.reverse
   return name
 end
