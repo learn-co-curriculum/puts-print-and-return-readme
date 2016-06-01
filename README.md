@@ -133,7 +133,15 @@ You may have expected the return value to be "Guy Fieri". His name is the last l
 
 The `return` keyword will disrupt the execution of your method. If you employ it, your method will return whatever you have explicitly told it to (in this case, `"Martha Stewart"`), and terminate.
 
-The explicit use of the `return` keyword is generally avoided by many Rubyists.
+The explicit use of the `return` keyword is generally avoided by many Rubyists, but there are instances where you might want to use `return` instead of relying on implicit returns. In the following method, we create a variable `name`. For fun, let's see the name reversed. The method `puts` out the reversed name; however, because we use `return`, the return value of the method will be the original name unchanged.
+
+```ruby
+def change_my_name
+  name = "Teddy"
+  puts name.reverse
+  return name
+end
+```
 
 ### Code Along Exercise: Practicing Return Values
 
