@@ -14,7 +14,7 @@ We'll cover how the `puts` and `print`commands display Ruby code to the console,
 
 ## `puts` and `print`
 
-The `puts` (short for "out**put s**tring") and `print` commands are both used to display in the console the results of evaluating Ruby code. The primary difference between them is that `puts` adds a newline after executing, and `print` does not.
+The `puts` (short for "out**put s**tring") and `print` commands are both used to display in the console the results of evaluating Ruby code. The primary difference between them is that `puts` adds a new line after executing, and `print` does not.
 
 ```ruby
 3.times { print "Hello!" }
@@ -203,3 +203,5 @@ On the next line, execute `total + 17`. You should see a return value of `=> 26`
 As we've just done, you'll find that we will often store return values in variables so that we can use them later.
 
 <p data-visibility='hidden'>View <a href='https://learn.co/lessons/puts-print-and-return-readme' title='Print, Puts, and Return'>Print, Puts, and Return</a> on Learn.co and start learning to code for free.</p>
+
+<p class='util--hide'>View <a href='https://learn.co/lessons/puts-print-and-return-readme'>Puts and Return</a> on Learn.co and start learning to code for free.</p>
