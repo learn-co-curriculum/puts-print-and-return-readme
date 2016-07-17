@@ -196,7 +196,7 @@ In the second method, the method simply returns the value of `1+1`, which is `2`
 
 Return values are how different parts of your program communicate with one another. You don't have to worry too much about this for now, but as you start to build more complicated programs, you'll find that the return value of one method might be operated on by a subsequent method.
 
-Let's look at a very basic example. Earlier, in IRB, we set a variable `total` equal to the return value of adding `6 + 3`. If you've left IRB, drop back in and re-create your `total` variable as the sum of `6 + 3`.
+Let's look at a very basic example. Earlier, in IRB, we set a variable `total` equal to the return value of adding `6 + 3`. First, return to IRB. Then re-create your `total` variable as the sum of `6 + 3`.
 
 On the next line, execute `total + 17`. You should see a return value of `=> 26`. Thus, the return value of one operation (`6 + 3`) was used to execute further operations (the addition of `17`).
 
