@@ -38,7 +38,7 @@ You can absolutely employ `puts` and `print` without understanding everything th
 
 ## Returning Values
 
-What methods like `puts` and `print` allow us to output to the console are different from Ruby's concept of a *return value*.
+What methods like `puts` and `print` allow us to output to the console is different from Ruby's concept of a *return value*.
 
 A return value is the data returned to the program by the execution of a method, the assignment of a variable, actually...
 
@@ -62,7 +62,7 @@ You may notice that the `puts` and `print` methods, when run in IRB, print value
 
 Methods are like vending machines. When you use a vending machine you just put in two arguments, the number (C7) and your money. We already know how to use arguments, but then your vending machine might do two things. One, it will make a noise saying that everything worked, beep beep. Then it gives you the soda. The soda is the return type. But those beeps? Are you able to do anything with them? Nope! That's like puts: it just tells you stuff and then goes into the ether! Gone forever.
 
-Every method in Ruby returns a value by default, even custom ones. This returned value will be the value of the last statement.
+Every method (even custom ones) in Ruby returns a value by default, . This returned value will be the value of the last statement.
 
 For example, let's look at this method called `restaurant`:
 
@@ -107,7 +107,7 @@ def broken_print_and_return_name
   puts "Guy Fieri"
 end
 ```
-The method would instead print "Guy Fieri" and return `nil`. This is because the last line that was evaluated was `puts ...` and the return value of a `puts`, as seen in the table above is always `nil`.
+The method would instead print "Guy Fieri" and return `nil`. This is because the last line that was evaluated was `puts ...` and the return value of a `puts`, as seen in the table above, is always `nil`.
 
 #### The Return Keyword
 
@@ -205,3 +205,5 @@ As we've just done, you'll find that we will often store return values in variab
 <p data-visibility='hidden'>View <a href='https://learn.co/lessons/puts-print-and-return-readme' title='Print, Puts, and Return'>Print, Puts, and Return</a> on Learn.co and start learning to code for free.</p>
 
 <p class='util--hide'>View <a href='https://learn.co/lessons/puts-print-and-return-readme'>Puts and Return</a> on Learn.co and start learning to code for free.</p>
+
+<p class='util--hide'>View <a href='https://learn.co/lessons/puts-print-and-return-readme'>Return Values</a> on Learn.co and start learning to code for free.</p>
