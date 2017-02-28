@@ -32,7 +32,7 @@ By default, Ruby doesn't display any output. The methods `puts` and `print` are 
 
 How do the `puts` and `print` methods actually output text to your console? They use the `$stdout` global variable provided to us by Ruby. (You don't need to worry about writing global variables right now.) For the purposes of understanding how `puts` and `print` work, we just need to understand the following:
 
-Ruby uses the `$stdout` global variable to communicate with your computers standard output stream (this happens through various other intermediaries which we wont delve into now). So in a basic sense, `puts` and `print` actually use the `$stdout` variable to send the information to the output stream on your computer which communicates with your operating system and outputs that information to the console.
+Ruby uses the `$stdout` global variable to communicate with your computers standard output stream (this happens through various other intermediaries which we won't delve into now). So in a basic sense, `puts` and `print` actually use the `$stdout` variable to send the information to the output stream on your computer which communicates with your operating system and outputs that information to the console.
 
 You can absolutely employ `puts` and `print` without understanding everything that was just described. But if you do understand it, then you now have a basic sense of what is happening under the hood of these methods.
 
@@ -205,3 +205,5 @@ As we've just done, you'll find that we will often store return values in variab
 <p data-visibility='hidden'>View <a href='https://learn.co/lessons/puts-print-and-return-readme' title='Print, Puts, and Return'>Print, Puts, and Return</a> on Learn.co and start learning to code for free.</p>
 
 <p class='util--hide'>View <a href='https://learn.co/lessons/puts-print-and-return-readme'>Puts and Return</a> on Learn.co and start learning to code for free.</p>
+
+<p class='util--hide'>View <a href='https://learn.co/lessons/puts-print-and-return-readme'>Puts and Return </a> on Learn.co and start learning to code for free.</p>
