@@ -205,5 +205,3 @@ As we've just done, you'll find that we will often store return values in variab
 <p data-visibility='hidden'>View <a href='https://learn.co/lessons/puts-print-and-return-readme' title='Print, Puts, and Return'>Print, Puts, and Return</a> on Learn.co and start learning to code for free.</p>
 
 <p class='util--hide'>View <a href='https://learn.co/lessons/puts-print-and-return-readme'>Puts and Return</a> on Learn.co and start learning to code for free.</p>
-
-<p class='util--hide'>View <a href='https://learn.co/lessons/puts-print-and-return-readme'>Return Values</a> on Learn.co and start learning to code for free.</p>
