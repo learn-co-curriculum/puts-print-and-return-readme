@@ -156,7 +156,7 @@ Let's try it out once more together. In your terminal, drop into IRB. Then, foll
   * You should see a return value of `19`.
 4. Copy and paste the below method definitions in IRB and hit `return`.
 
-####First Method
+#### First Method
 
 ```ruby
 def print_one_plus_one
@@ -175,7 +175,7 @@ print_one_plus_one #this invokes the method
 ```
 In the first method, the method outputs `2` to the terminal then returns `nil`, because `puts` always returns `nil`.
 
-####Second Method
+#### Second Method
 ```ruby
 def one_plus_one
   1+1
