@@ -11,7 +11,6 @@ We'll cover how the `puts` and `print`commands display Ruby code to the console,
 3. Distinguish between the display outputs of `puts` and `print`from their return values.
 4. Use the explicit `return` keyword.
 
-
 ## `puts` and `print`
 
 The `puts` (short for "out**put s**tring") and `print` commands are both used to display in the console the results of evaluating Ruby code. The primary difference between them is that `puts` adds a new line after executing, and `print` does not.
@@ -46,15 +45,37 @@ Everything in Ruby has a return value!
 
  For instance:
 
-| Code                  | Return Value   |
-|-----------------------|----------------|
-| `"Hello world"`       | `"Hello world"`|
-| `6 + 3`               | `9`            |
-| `president = "Obama"` | `"Obama"`        |
-| `total = 6 + 3`       | `9`            |
-| `puts "hello world"`  | `nil`          |
-| `print "hello world"` | `nil`          |
-
+<table border="1" cellpadding="4" cellspacing="0">
+  <tr>
+    <th>Code</th>
+    <th>Return Value</th>
+  </tr>
+  
+  <tr>
+    <td><code>"Hello world"</code></td>
+    <td><code>"Hello world"</code></td>
+  </tr>
+  <tr>
+    <td><code>6 + 3</code></td>
+    <td><code>9</code></td>
+  </tr>
+  <tr>
+    <td><code>president = "Obama"</code></td>
+    <td><code>"Obama"</code></td>
+  </tr>
+  <tr>
+    <td><code>total = 6 + 3</code></td>
+    <td><code>9</code></td>
+  </tr>
+  <tr>
+    <td><code>puts "hello world"</code></td>
+    <td><code>nil</code></td>
+  </tr>
+  <tr>
+    <td><code>print "hello world"</code></td>
+    <td><code>nil</code></td>
+  </tr>
+</table>
 
 You may notice that the `puts` and `print` methods, when run in IRB, print values on the screen and then display a line like this: `=> nil`. This is because `puts` and `print` may print the value you want, but instead of *returning* that value, they return `nil`.
 
