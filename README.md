@@ -37,7 +37,7 @@ You can absolutely employ `puts` and `print` without understanding everything th
 
 ## Returning Values
 
-What methods like `puts` and `print` allow us to output to the console is different from Ruby's concept of a *return value*.
+While methods like `puts` and `print` allow us to output to the console, this is different from Ruby's concept of a *return value*.
 
 A return value is the data returned to the program by the execution of a method, the assignment of a variable, actually...
 
