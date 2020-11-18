@@ -150,7 +150,7 @@ What do you expect the return value of the above method to be? Go into IRB, copy
 
 You may have expected the return value to be "Guy Fieri". His name is the last line of the method and it is true that he does have the best style (you can't beat sunglasses on the back of the head, sorry).
 
-*However*, the return value of the above method is actually `=> Martha Stewart`!
+*However*, the return value of the above method is actually `=> Martha Stewart`! (Note: if you aren't getting "Martha Stewart" as the return value remember you need to call the method in IRB.)
 
 The `return` keyword will disrupt the execution of your method. If you employ it, your method will return whatever you have explicitly told it to (in this case, `"Martha Stewart"`), and terminate.
 
